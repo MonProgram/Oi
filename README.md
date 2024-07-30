@@ -2,10 +2,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Título da página</title>
+    <title>Testing Website</title>
     <meta charset="utf-8">
   </head>
   <body>
-    Aqui vai o código HTML que fará seu site aparecer.
+    Tu está vendo? É por aqui que vou aparecer.
   </body>
 </html>
