@@ -15,12 +15,31 @@
            width: 800px;
            height: 500px;
       }
+
+      .center-text {
+            text-align: center;
+
+      }
+
+      .center-nav {
+            text-align: center;
+      }
+
+      .center-nav ul {
+           display: inline-block;
+           padding: 0;
+      }
+
+      .center-nav li {
+           display: inline;
+           margin: 0 10px;
+      }
     </style>
 </head>
 <body>
 
   <header> 
-       <nav>
+       <nav class="center-nav">
           <ul>
             <li> <a href="./Home.html"> Home  </a> </li>
             <li> <a href="./Perfil.html"> Perfil  </a> </li>
@@ -30,14 +49,18 @@
 
   </header>
 
-  <main> <h1>Jornal de hoje</h1>
+  <main>
+     <h1 class="center-text">Jornal de hoje</h1>
 
     <p></p>
     
-      <img src="/img/xp.jpg" alt="um mapa mundial interligado" width = "800px" height = "500px" class="center-image">
+      <img src="/img/map.jpg" alt="um mapa mundial interligado" width = "800px" height = "500px" class="center-image">
   
-      <h2 class="subway">você se interessa por notícias? chegue aqui e poderá ver algumas informações de seu interesse</h2>
+      <h2 class="center-text subway">você se interessa por notícias? chegue aqui e poderá ver algumas informações de seu interesse</h2>
   </main>
+
+  <h2 class="center-text">Homem foge de abelha na Grande São Paulo</h2>
+      <img src="abelha.jpeg" alt="Homem foge de abelha na Grande São Paulo" class="center-image">
 
   <footer></footer>
 
