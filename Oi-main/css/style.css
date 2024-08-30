@@ -1,0 +1,10 @@
+h1 {
+    color: rgb(206, 154, 255);
+    body {
+        background-color: #0088ff; /* Altere o valor da cor para a cor desejada */
+    }
+}
+
+body{
+    background-color: rgb(230, 230, 230);
+}
